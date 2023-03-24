@@ -4,4 +4,7 @@ if command -v chezmoi >/dev/null 2>&1; then
     cmcd() {
         cd $(chezmoi source-path)
     }
+    cmedit() {
+        code $(chezmoi sourcepath)
+    }
 fi
