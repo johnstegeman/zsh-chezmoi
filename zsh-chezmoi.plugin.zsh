@@ -5,6 +5,6 @@ if command -v chezmoi >/dev/null 2>&1; then
         cd $(chezmoi source-path)
     }
     cmedit() {
-        code $(chezmoi sourcepath)
+        code $(chezmoi source-path)
     }
 fi
